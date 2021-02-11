@@ -1,0 +1,89 @@
+/* modules.css should contain smaller components on the page
+Apply to elements such as list items, individual images, specific paragraphs
+Classes and descendant selectors should primarily be included here */
+
+/* desktop */
+
+@media only screen and (min-width: 768px) {
+  header {
+    background-color: #448065;
+  }
+
+  aside {
+    background-color: #d4ffeb;
+  }
+
+  .width380 {
+    background-color: #87ffc9;
+  }
+
+  .width380:nth-child(3) {
+    background-color: #3a857a;
+  }
+
+  .width190 {
+    background-color: #0f854f;
+  }
+
+  .width190:nth-last-child(2) {
+    background-color: #47ccb8;
+  }
+
+  .width190:nth-last-child(3) {
+    background-color: #80ffb0;
+  }
+
+  .width190:last-child {
+    background-color: #59ffe6;
+  }
+
+  footer {
+    background-color: #6ccca1;
+  }
+}
+
+/* =============================================================================================== */
+/* =============================================================================================== */
+/* mobile */
+
+@media only screen and (max-width: 767px) {
+  header {
+    background-color: #e62ec1;
+  }
+
+  aside {
+    background-color: #b60a93;
+  }
+
+  .width380 {
+    background-color: #fa8de4;
+  }
+
+  .width380:nth-child(3) {
+    background-color: #88587e;
+  }
+
+  .width190 {
+    background-color: #852672;
+  }
+
+  .width190:nth-last-child(2) {
+    background-color: #9129ab;
+  }
+
+  .width190:nth-last-child(3) {
+    background-color: #d83dff;
+  }
+
+  .width190:nth-last-child(3) {
+    background-color: #cc29ab;
+  }
+
+  .width190:last-child {
+    background-color: #c46dcf;
+  }
+
+  footer {
+    background-color: #eeabff;
+  }
+}
