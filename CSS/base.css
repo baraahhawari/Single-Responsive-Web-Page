@@ -3,6 +3,8 @@ Apply to elements such as body and main
 Examples include styling of overall font and background color */
 
 body {
-    text-align: center;
-    line-height: 100px;
-  }
+  text-align: center;
+  line-height: 100px;
+  justify-content: center;
+  align-items: center;
+}
