@@ -2,6 +2,15 @@
 Apply to elements such as header, footer, nav, aside
 Classes and IDs can be included here */
 /* desktop */
+article {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.width190Container {
+  display: inline-flex;
+  flex-wrap: wrap;
+}
 
 @media only screen and (min-width: 768px) {
   body {
@@ -55,7 +64,7 @@ Classes and IDs can be included here */
 
 @media only screen and (max-width: 767px) {
   body {
-    width: 767px;
+    width: 719px;
     margin: 0 auto;
   }
 
@@ -79,14 +88,17 @@ Classes and IDs can be included here */
   .width190 {
     width: 240px;
     height: 250px;
-    float: left;
-  }
-  .width190:nth-last-child(2) {
-    clear: both;
+    /* float: left; */
   }
 
+  /* .width190:nth-last-child(3) {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: flex-end;
+  } */
+
   footer {
-    clear: both;
+    /* clear: both; */
     width: 480px;
     height: 80px;
   }
